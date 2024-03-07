@@ -26,7 +26,7 @@ def cleanup():
         print('Creating Cleanup Folder...')
 
      #Loop through all files on desktop   
-     imgs = ('pdf', 'jpg', 'jpeg')
+     imgs = ('pdf', 'jpg', 'HEIC')
      movies = ('mp4', 'mov', 'MOV')
      files_on_desktop = os.listdir(desktop_dir)
      # if there is a screenshot move it to screenshots folder

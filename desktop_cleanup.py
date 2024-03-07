@@ -4,11 +4,13 @@ import schedule
 import time
 import send2trash
 
-desktop_dir = '/Users/benturner/Desktop'
-cleanup_dir = '/Users/benturner/Desktop/CleanUp'
+desktop_dir = os.path.join(os.path.expanduser('~'), 'Desktop')
+cleanup_folder = 'Cleanup'
+cleanup_dir = os.path.join(desktop_dir, cleanup_folder)
 screen_dir = 'Screenshots'
 images_dir = 'Images'
 movies_dir = 'Videos'
+others_dir = 'Others'
 path1 = os.path.join(cleanup_dir, screen_dir)
 path2 = os.path.join(cleanup_dir, images_dir)
 path3 = os.path.join(cleanup_dir, movies_dir)

@@ -1,7 +1,6 @@
 import os
 import shutil
-import schedule
-import time
+
 import send2trash
 from datetime import datetime
 
